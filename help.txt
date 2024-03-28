@@ -1,0 +1,27 @@
+
+Usage of the SSD Test Shell:
+
+- exit
+  Terminates the program. No additional arguments are required.
+
+- help
+  Displays a list of available commands along with their descriptions.
+
+- write <block> <data>
+  Writes data to the specified block.
+  <block>: The number of the block to be written to. Must be a numerical value.
+  <data>: The data to be written to the block. Must be an 8-digit hexadecimal value starting with 0x.
+
+- read <block>
+  Reads data from the specified block.
+  <block>: The number of the block to be read from. Must be a numerical value.
+
+- fullwrite <data>
+  Writes the same data to all blocks, performing a total of 100 write operations.
+  <data>: The data to be written to all blocks. Must be an 8-digit hexadecimal value starting with 0x.
+
+- fullread
+  Reads data from all blocks, performing a total of 100 read operations. Results are stored in 'result.txt'.
+
+by Hyeongnam Kang and Gaeun Lee
+
